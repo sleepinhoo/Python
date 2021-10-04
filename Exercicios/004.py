@@ -1,0 +1,15 @@
+coisa = input("Digite algo...: ")
+
+alphanum = coisa.isalnum()
+alpha = coisa.isalpha()
+num = coisa.isnumeric()
+upper = coisa.isupper()
+lower = coisa.islower()
+
+print("O tipo primitivo desse valor é", type(coisa))
+print("A coisa digitada foi {}.".format(coisa))
+print("É alpha? {}".format(alpha))
+print("É numerico? {}.".format(num))
+print("É alphanumerico? {}".format(alphanum))
+print("Está em maiusculo? {}".format(upper))
+print("Está em minusculo? {}".format(lower))
