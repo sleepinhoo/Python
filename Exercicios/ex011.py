@@ -1,5 +1,5 @@
 # Use o .strip() para eliminar os espacos antes e depois de uma cadeia de caracteres, isso eh util para nomes de pessoas.
-nome = str(input("Digite o seu nome: ")).strip()
+nome = str(input("Digite o seu nome completo: ")).strip()
 
 print("Um momento, estamos analisando seu nome...")
 print(f"Seu nome no formato original e: {nome}")
