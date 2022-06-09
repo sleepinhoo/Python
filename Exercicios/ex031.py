@@ -1,4 +1,4 @@
-# tip: a ocondição poderia ser escrita da forma reduzida >>> pr = dist * 0.50 if dist <= 200 else dist * 0.45 >>> use-a para códigos menores, caso contrário, use a versão tradicional, deixa o código mais bonito
+# tip: a condição poderia ser escrita da forma reduzida >>> pr = dist * 0.50 if dist <= 200 else dist * 0.45 >>> use-a para códigos menores, caso contrário, use a versão tradicional, deixa o código mais bonito
 
 dist = float(input("QUal é a distância da sua passagem? "))
 print(f"Você está prestes a começar uma viagem de {dist}Km.")
